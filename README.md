@@ -2,29 +2,27 @@
 ![alt text](Spain_Galicia.png)
 
 ## Introducción al Proyecto 🚀
-_Acá va un párrafo que describa lo que es el proyecto_
+_Este proyecto tiene como objetivo general el de proveer un modelo de predicción de incendios forestales en la provincia de Galicia, España._
+  _Pretendemos eleborar un modelo de machine learning, que, a partir de ciertas variables obtenidas puedamos llegar a nuestro objetivo final._
+
 
 
 ### Objetivos y tareas📋
 
-_Objetivos y tareas del proyecto_
+_El principal objetivo de este proyecto es el de obtener un mejor conocimientos en cuanto a técnicas, desarrollo y construcción de un modelo de machine learning (en este caso aprendizaje supervisado), así mismo se plantea realizar tareas de **Data Acquisition**, **Data Wrangling** Y **EDA**, que son los pasos previos y más importantes para obtener un modelo fiable, el cual es nuestro objetivo final._
 
-```
-Da un ejemplo
-```
+
 ### Adquisición de datos (Data Adquisition)🔧
 
 _Como y de donde obtuvimos el dataset_
+
+_Los datos originales fueron obtenidos de [CIVIO](https://datos.civio.es/dataset/todos-los-incendios-forestales/) y [Aemet](https://opendata.aemet.es/centrodedescargas/productosAEMET), pero estamos utilizando el dataset con un preprocesado mucho más específico y de un nivel mucho más alto, que crearon [LenaMorianu](https://github.com/LenaMorianu) y su equipo._
 
 ### Conocimiento y Preparación de datos (Data Wrangling)🔧
 
 _Preparacion, limpieza, integración y transformación de los datos_
 
 _Dí cómo será ese paso_
-_ _
-```
-Da un ejemplo
-```
 
 ### Exploracion y planificación del modelo (EDA) ⌨️
 
@@ -52,12 +50,12 @@ _Agrega notas adicionales sobre como hacer deploy_
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 * [Anaconda](https://www.anaconda.com/) - La distribución usada
-* [ejemplo](https://ejemplo.org/) - Ejemplo
+* [Scikit-learn](https://scikit-learn.org/) - Libreria usada para el modelo de ML
 * [ejmplo](https://ejemplo/ejemplo/) - Ejemplo
 
 ## Créditos 🖇️
 
-* Creditos a **Lena Morianu** y a su equipo por el dataset - *Los incendios en Galicia* - [LenaMorianu](https://github.com/LenaMorianu)
+* Creditos a **Lena Morianu** y a su equipo por el [dataset](https://github.com/LenaMorianu/Los-incendios-en-Galicia) - *Los incendios en Galicia* - [LenaMorianu](https://github.com/LenaMorianu)
 
 ## Ejemplo 📖
 
@@ -69,10 +67,11 @@ Ejemplo
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+* **Alejandro Nuñez** - *Trabajo Inicial* - [AleNunez5](https://github.com/AleNunez5)
+* **Carolina Vinagre** - *Trabajo Inicial* - [carovinagre](https://github.com/carovinagre)
+* **Claudia Corau** - *Trabajo Inicial* - [fulanitodetal](#fulanito-de-tal)
+* **Francisco Gutierrez** - *Trabajo Inicial* - [franciscodevs](https://github.com/franciscodevs)
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto.
 
