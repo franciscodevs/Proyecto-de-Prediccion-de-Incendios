@@ -49,19 +49,15 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 * Creditos a **Lena Morianu** y a su equipo por el [dataset](https://github.com/LenaMorianu/Los-incendios-en-Galicia) - *Los incendios en Galicia* - [LenaMorianu](https://github.com/LenaMorianu)
 
-## Ejemplo 📖
+## Notas 📌
 
 Ejemplo
 
-## Ejemplo 📌
-
-Ejemplo
-
-## Autores ✒️ :argentina:
+## Autores ✒️
 
 * **Alejandro Nuñez** - *Trabajo Inicial* - [AleNunez5](https://github.com/AleNunez5)
 * **Carolina Vinagre** - *Trabajo Inicial* - [carovinagre](https://github.com/carovinagre)
-* **Claudia Corau** - *Trabajo Inicial* - [fulanitodetal](#fulanito-de-tal)
+* **Claudia Courau** - *Trabajo Inicial* - [clau-courau](https://github.com/clau-courau)
 * **Francisco Gutierrez** - *Trabajo Inicial* - [franciscodevs](https://github.com/franciscodevs)
 
 ## Tutor :raising_hand_man:
