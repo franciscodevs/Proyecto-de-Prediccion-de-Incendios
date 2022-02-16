@@ -2,9 +2,11 @@
 ![alt text](Spain_Galicia.png)
 
 ## Introducción al Proyecto 🚀
-_Este proyecto tiene como objetivo general el de proveer un modelo de predicción de incendios forestales en la provincia de Galicia, España._
-  _Pretendemos eleborar un modelo de machine learning, que, a partir de ciertas variables obtenidas puedamos llegar a nuestro objetivo final._
+_Los incendios forestales, de matorrales o vegetación pueden describirse como cualquier combustión o quema no controlada y no prescrita de plantas en un entorno natural como un bosque, una pradera, etc. Son uno de los mayores problemas ambientales y producen un daño ecológico, económico y humano, irreparables. Por tal motivo una detección prematura de los mismos es una herramienta vital que puede permitir una lucha más eficaz contra este flagelo._
 
+_Hoy en día los incendios forestales suponen un grave problema ecológico, social y económico y se trata de un problema que amenaza con intensificarse debido a los efectos del cambio climático. Poder saber cuándo y dónde se producen, así como cuál es su extensión, a qué vegetación afectan y, sobre todo, por qué se producen y quién o qué los causa, es algo fundamental para evitarlos, protegernos de ellos y así poder conservar nuestro patrimonio forestal._
+
+_Actualmente existen aproximaciones que intentan dar soluciones empleando herramientas automáticas basadas en sensores locales (meteorológicos), otras se basan en satélites, y un tercer grupo de técnicas, en scanners de humo e infrarrojos. En este proyecto pretendemos construir un modelo de Machine Learning con el objetivo de poder predecir la posibilidad de incendio, causas, cantidad de hectáreas que se verían afectadas y cómo sería su desarrollo, lo que sería clave para el planeamiento estratégico de los recursos destinados a combatir los incendios forestales_
 
 
 ### Objetivos y tareas📋
