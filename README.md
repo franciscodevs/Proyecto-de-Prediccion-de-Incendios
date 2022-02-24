@@ -6,12 +6,17 @@ _Los incendios forestales, de matorrales o vegetación pueden describirse como c
 
 _Hoy en día los incendios forestales suponen un grave problema ecológico, social y económico y se trata de un problema que amenaza con intensificarse debido a los efectos del cambio climático. Poder saber cuándo y dónde se producen, así como cuál es su extensión, a qué vegetación afectan y, sobre todo, por qué se producen y quién o qué los causa, es algo fundamental para evitarlos, protegernos de ellos y así poder conservar nuestro patrimonio forestal._
 
-_Actualmente existen aproximaciones que intentan dar soluciones empleando herramientas automáticas basadas en sensores locales (meteorológicos), otras se basan en satélites, y un tercer grupo de técnicas, en scanners de humo e infrarrojos. En este proyecto pretendemos construir un modelo de Machine Learning con el objetivo de poder predecir la posibilidad de incendio, causas, cantidad de hectáreas que se verían afectadas y cómo sería su desarrollo, lo que sería clave para el planeamiento estratégico de los recursos destinados a combatir los incendios forestales_
+_Cabe destacar que la recuperación del estrato arbóreo podría demorar aproximadamente 60 años. Desde el punto de vista de las pérdidas económicas derivadas del incendio forestal, se cuentan las pérdidas económicas del bosque, el costo de la extinción del incendio y costo parcial de las pérdidas de infraestructura. Así, las personas residentes permanentes del área quemada, ven perjudicada su calidad de vida, tanto en su salud como en su economía y sus actividades cotidianas, cada vez que acontece dicho siniestro. Por esta razón, un sistema de prevención del fuego que informe de alertas tempranas podría ayudar a solventar muchas de estas pérdidas, alertando a la población y a las autoridades, para que prepare y dirija sus recursos en la posible zona de siniestro, y así evitar al mínimo pérdidas económicas, ecológicas y principalmente pérdidas de vidas humanas._
 
 
 ### Objetivos y tareas📋
 
-_El principal objetivo de este proyecto es el de obtener un mejor conocimientos en cuanto a técnicas, desarrollo y construcción de un modelo de machine learning (en este caso aprendizaje supervisado), así mismo se plantea realizar tareas de **Data Acquisition**, **Data Wrangling** Y **EDA**, que son los pasos previos y más importantes para obtener un modelo fiable, el cual es nuestro objetivo final._
+_Este proyecto tiene como principal objetivo el obtener un mejor entendimiento de técnicas, desarrollo y construcción de un **modelo de machine learning supervisado**. La realización de tareas de Data Acquisition, Data Wrangling y EDA nos guiarán a la obtención de un modelo fiable, el cual es nuestra meta final._
+
+_Con nuestro modelo de machine learning pretendemos predecir cómo se relacionan las causas de incendios con las distintas variables para poder generar planes eficientes de control del fuego: brindar un sistema de soporte de decisión a la planeación estratégica de recursos destinados a incendios forestales._
+
+_Crear un modelo que ayude en la predicción de desarrollo de incendios a partir de sus causas haría mucho más eficiente la distribución de los recursos necesarios para la extinción y ayudaría también en la reducción de costes, daños y pérdidas. Aún teniendo en cuenta la gran dificultad que presenta el desarrollo de un modelo de predicción de incendios (por su complejidad y ser altamente no lineal debido a la incertidumbre asociada al comportamiento humano en relación al fuego), se intentará desarrollar un modelo basándonos en el histórico de datos de la Región de Galicia que es la de mayor afluencia de incendios en España y de la cual tenemos acceso a un dataset con abundantes registros._
+_
 
 
 ### Adquisición de datos (Data Acquisition) :mag:
