@@ -29,8 +29,17 @@ _Los datos originales fueron obtenidos de [CIVIO](https://datos.civio.es/dataset
 
 _Preparacion, limpieza, integración y transformación de los datos_
 
-_Dí cómo será ese paso_
+_Ejecutamos códigos para ordenamiento y limpieza de nuestra raw data con el fin de detectar y eliminar errores de registro._
+	_*Eliminamos columnas innecesarias_
+	_*Verificamos que todos los datos cuenten con el mismo formato: Transformamos la columna 'fecha' a tipo numerico para luego dividir mejor las variables_
 
+_Una vez establecida la variable 'causa' como variable target de nuestro proyecto, procedimos a la identificación de las variables más relevantes relacionadas con la primera. _
+	_* Agrupamos dentro del dataset según la variable 'causa' –> df.groupby('causa').size() _
+	_*Mapeamos las variables categoricas que tienen un orden para que sean facilmente adaptables a los modelos._
+	_*Dado que la variable 'idmunicipio' contiene gran cantidad de 	posibilidades, que decidimos dropear la columna para no agregar varianza a los datos. Latitud y longitud brindan ya la información de ubicación_
+ 	_*Dividimos el dataset en dos (datos categoricos y numericos) para optimizar su manejo._
+	_*Utilizamos catboost para entender la importancia de las variables a la hora de predecir la 'causa'. Observamos que a la hora de elegir una variable temporal, nos resulta conveniente inclinarnos por ‘Trimestre’ ya que es mejor predictor por sobre ‘mes’._
+  
 ### Exploracion y planificación del modelo (EDA) :microscope:
 
 _Metodos y tecnicas para establecer las relaciones entre las variables_
