@@ -30,16 +30,17 @@ _Los datos originales fueron obtenidos de [CIVIO](https://datos.civio.es/dataset
 _Preparacion, limpieza, integración y transformación de los datos_
 
 _Ejecutamos códigos para ordenamiento y limpieza de nuestra raw data con el fin de detectar y eliminar errores de registro._
-	_*Eliminamos columnas innecesarias_
-	_*Verificamos que todos los datos cuenten con el mismo formato: Transformamos la columna 'fecha' a tipo numerico para luego dividir mejor las variables_
+* _Eliminamos columnas innecesarias_
+* _Verificamos que todos los datos cuenten con el mismo formato: Transformamos la columna 'fecha' a tipo numerico para luego dividir mejor las variables_
 
-_Una vez establecida la variable 'causa' como variable target de nuestro proyecto, procedimos a la identificación de las variables más relevantes relacionadas con la primera. _
-	_* Agrupamos dentro del dataset según la variable 'causa' –> df.groupby('causa').size() _
-	_*Mapeamos las variables categoricas que tienen un orden para que sean facilmente adaptables a los modelos._
-	_*Dado que la variable 'idmunicipio' contiene gran cantidad de 	posibilidades, que decidimos dropear la columna para no agregar varianza a los datos. Latitud y longitud brindan ya la información de ubicación_
- 	_*Dividimos el dataset en dos (datos categoricos y numericos) para optimizar su manejo._
-	_*Utilizamos catboost para entender la importancia de las variables a la hora de predecir la 'causa'. Observamos que a la hora de elegir una variable temporal, nos resulta conveniente inclinarnos por ‘Trimestre’ ya que es mejor predictor por sobre ‘mes’._
-  
+_Una vez establecida la variable 'causa' como variable target de nuestro proyecto, procedimos a la identificación de las variables más relevantes relacionadas con la primera._
+
+* _Agrupamos dentro del dataset según la variable 'causa' –> df.groupby('causa').size()_
+* _Mapeamos las variables categoricas que tienen un orden para que sean facilmente adaptables a los modelos._
+* _Dado que la variable 'idmunicipio' contiene gran cantidad de 	posibilidades, que decidimos dropear la columna para no agregar varianza a los datos. Latitud y longitud brindan ya la información de ubicación._
+* _Dividimos el dataset en dos (datos categoricos y numericos) para optimizar su manejo._
+* _Utilizamos catboost para entender la importancia de las variables a la hora de predecir la 'causa'. Observamos que a la hora de elegir una variable temporal, nos resulta conveniente inclinarnos por ‘Trimestre’ ya que es mejor predictor por sobre ‘mes’._
+
 ### Exploracion y planificación del modelo (EDA) :microscope:
 
 _Metodos y tecnicas para establecer las relaciones entre las variables_
@@ -48,10 +49,6 @@ _Metodos y tecnicas para establecer las relaciones entre las variables_
 
 _Evaluar y aplicar las tecnicas para construir el modelo_
 
-### Despliegue e informes 📦
-
-_Despliegue del modelo y los resultados de la predicción_
-
 
 ## Herramientas utilizadas en el proyecto 🛠️
 
@@ -59,32 +56,24 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 * [Anaconda](https://www.anaconda.com/) - La distribución usada
 * [Scikit-learn](https://scikit-learn.org/) - Libreria usada para el modelo de ML
-* [ejmplo](https://ejemplo/ejemplo/) - Ejemplo
+* [Matplotlib](https://matplotlib.org/) & [Seaborn](https://seaborn.pydata.org/) - Librerias para la visualización de gráficos
 
 ## Créditos :handshake:
 
 * Creditos a **Lena Morianu** y a su equipo por el [dataset](https://github.com/LenaMorianu/Los-incendios-en-Galicia) - *Los incendios en Galicia* - [LenaMorianu](https://github.com/LenaMorianu)
 
 ## Notas 📌
-
 Ejemplo
 
 ## Autores ✒️
 
-* **Alejandro Nuñez** - *Trabajo Inicial* - [AleNunez5](https://github.com/AleNunez5)
-* **Carolina Vinagre** - *Trabajo Inicial* - [carovinagre](https://github.com/carovinagre)
-* **Claudia Courau** - *Trabajo Inicial* - [clau-courau](https://github.com/clau-courau)
-* **Francisco Gutierrez** - *Trabajo Inicial* - [franciscodevs](https://github.com/franciscodevs)
+* **Alejandro Nuñez** - [AleNunez5](https://github.com/AleNunez5)
+* **Carolina Vinagre** - [carovinagre](https://github.com/carovinagre)
+* **Claudia Courau** - [clau-courau](https://github.com/clau-courau)
+* **Francisco Gutierrez** - [franciscodevs](https://github.com/franciscodevs)
 
 ## Tutor :raising_hand_man:
-* **Jose Ignacio Lopez Saez** - *Trabajo Inicial* - [nachols1986](https://github.com/nachols1986)
+* **Jose Ignacio Lopez Saez** - [nachols1986](https://github.com/nachols1986)
 
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo.
-* Da las gracias públicamente 🤓.
-* etc.
 
 ![alt text](LOGO_CODER.png)
