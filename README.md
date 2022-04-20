@@ -25,7 +25,7 @@ _Como y de donde obtuvimos el dataset_
 
 _Los datos originales fueron obtenidos de [CIVIO](https://datos.civio.es/dataset/todos-los-incendios-forestales/) y [Aemet](https://opendata.aemet.es/centrodedescargas/productosAEMET), pero estamos utilizando el dataset con un preprocesado mucho más específico y de un nivel mucho más alto, que crearon [LenaMorianu](https://github.com/LenaMorianu) y su equipo._
 
-### Conocimiento y Preparación de datos (Data Wrangling) 🔧
+### Exploracion (EDA) :microscope: y preparación de datos (Data Wrangling) 🔧
 
 _Preparacion, limpieza, integración y transformación de los datos_
 
@@ -36,14 +36,10 @@ _Ejecutamos códigos para ordenamiento y limpieza de nuestra raw data con el fin
 _Una vez establecida la variable 'causa' como variable target de nuestro proyecto, procedimos a la identificación de las variables más relevantes relacionadas con la primera._
 
 * _Agrupamos dentro del dataset según la variable 'causa' –> df.groupby('causa').size()_
-* _Mapeamos las variables categoricas que tienen un orden para que sean facilmente adaptables a los modelos._
-* _Dado que la variable 'idmunicipio' contiene gran cantidad de 	posibilidades, que decidimos dropear la columna para no agregar varianza a los datos. Latitud y longitud brindan ya la información de ubicación._
+* _Mapeamos las variables categoricas que tienen un orden para que sean facilmente adaptables al análisis._
+* _Dado que la variable 'idmunicipio' contiene gran cantidad de 	posibilidades, decidimos dropear la columna para no agregar varianza a los datos. Latitud y longitud brindan ya la información de ubicación._
 * _Dividimos el dataset en dos (datos categoricos y numericos) para optimizar su manejo._
 * _Utilizamos catboost para entender la importancia de las variables a la hora de predecir la 'causa'. Observamos que a la hora de elegir una variable temporal, nos resulta conveniente inclinarnos por ‘Trimestre’ ya que es mejor predictor por sobre ‘mes’._
-
-### Exploracion y planificación del modelo (EDA) :microscope:
-
-_Metodos y tecnicas para establecer las relaciones entre las variables_
 
 ### Desarrollo del modelo ⚙️
 
