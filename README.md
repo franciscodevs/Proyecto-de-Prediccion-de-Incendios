@@ -1,5 +1,5 @@
 # Predicción de Incendios en Galicia
-![alt text](Spain_Galicia.png)
+![img](data/Spain_Galicia.png)
 
 ## Introducción al Proyecto 🚀
 _Los incendios forestales, de matorrales o vegetación pueden describirse como cualquier combustión o quema no controlada y no prescrita de plantas en un entorno natural como un bosque, una pradera, etc. Son uno de los mayores problemas ambientales y producen un daño ecológico, económico y humano, irreparables. Por tal motivo una detección prematura de los mismos es una herramienta vital que puede permitir una lucha más eficaz contra este flagelo._
@@ -76,4 +76,4 @@ Ejemplo
 * **Jose Ignacio Lopez Saez** - [nachols1986](https://github.com/nachols1986)
 
 
-![alt text](LOGO_CODER.png)
+![img](data/LOGO_CODER.png)
