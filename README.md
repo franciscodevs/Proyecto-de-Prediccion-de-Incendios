@@ -55,8 +55,12 @@ Una vez establecida la variable causa como variable target de nuestro proyecto, 
 
 ### Desarrollo del modelo ⚙️
 
-_Evaluar y aplicar las tecnicas para construir el modelo_
+Ya planteadas todas las variables y las relaciones entre ellas, procedimos a crear y elegir el mejor modelo que se ajustara a nuestros objetivos.
 
+* _En primer lugar notamos que la técnica Random Under Sampling fue la que arrojó los peores resultados en métricas. Con lo cual podemos afirmar que eliminar datos para intentar balancear las clases no es recomendable para nuestro problema._
+* _Es importante complementar las distintas métricas y visualizar la matriz de confusión ya que se puede obtener buenas métricas a pesar de que el modelo no sea útil (específicamente nos referimos al caso de la Maquina de Soporte Vectorial que mencionamos en párrafos anteriores)._
+* _Random Forest es el modelo que mejor perfoma en la métrica F1 Score; de todas formas notamos que en el caso de aplicación de las técnicas ROS (mejor F1 observado) y SMOTE, el tiempo requerido es muy alto frente a otros modelos._
+* _Por lo tanto, podríamos elegir entre dos modelos ganadores: KNN y Random Forest. El primero tiene tiempos muy bajos; A pesar de ello, notamos que (si bien Random Forest no tiene el valor mínimo de tiempo, tampoco es demasiado costoso) Random Forest le saca una leve ventaja en F1 (además de una mayor simpleza a la hora de construirlo) y termina siendo el modelo elegido._
 
 ## Herramientas utilizadas en el proyecto 🛠️
 
@@ -69,9 +73,6 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 ## Créditos :handshake:
 
 * Creditos a **Lena Morianu** y a su equipo por el [dataset](https://github.com/LenaMorianu/Los-incendios-en-Galicia) - *Los incendios en Galicia* - [LenaMorianu](https://github.com/LenaMorianu)
-
-## Notas 📌
-Ejemplo
 
 ## Autores ✒️
 
