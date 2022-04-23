@@ -43,27 +43,31 @@ _Una vez establecida la variable 'causa' como variable target de nuestro proyect
 
 ## Exploratory Data Analysis
 Llevamos a cabo una investigación inicial de los datos en búsqueda de patrones y anomalías mediante el cálculo de medidas estadísticas básicas y gráficas simples.
-*_Observamos las primeras y últimas 5 filas del dataset para tener un vistazo de los datos
-*_Ejecutamos códigos para obtener tamaño y para tipo de dato de cada columna.
-*_Buscamos datos nulos.
-*_La función “describe” nos muestra descriptores estadísticos básicos de nuestras columnas “df.describe().round()”
+
+* _Observamos las primeras y últimas 5 filas del dataset para tener un vistazo de los datos_
+* _Ejecutamos códigos para obtener tamaño y para tipo de dato de cada columna._
+* _Buscamos datos nulos._
+* _La función “describe” nos muestra descriptores estadísticos básicos de nuestras columnas “df.describe().round()”_
 
 Hacer un análisis exploratorio de datos nos permite tener una idea de la distribución de variables en su conjunto (forma, sesgo, etc) . Utilizamos histogramas, gráficas de línea y boxplot en búsqueda de:
-*_Relaciones 	entre variables. 	
-*_Valores 	atípicos o puntos inusuales que puedan indicar problemas de 	calidad de los datos o conducir a descubrimientos interesantes. 	
-*_Patrones 	temporales
+
+* _Relaciones 	entre variables._
+* _Valores 	atípicos o puntos inusuales que puedan indicar problemas de calidad de los datos o conducir a descubrimientos interesantes._
+* _Patrones 	temporales_
 
 ## Data Wrangling
 Ejecutamos códigos para ordenamiento y limpieza de nuestra raw data con el fin de detectar y eliminar errores de registro.
-*_Eliminamos columnas innecesarias.
-*_Verificamos que todos los datos cuenten con el mismo formato: 	Transformamos la columna 'fecha' a tipo numerico para luego dividir mejor las variables.
 
-Una vez establecida la variable causa como variable target de nuestro proyecto, procedimos a la identificación de las variables más relevantes relacionadas con la primera. 
-*_Agrupamos dentro del dataset según la variable causa –> df.groupby('causa').size() 
-*_Mapeamos las variables categoricas que tienen un orden para que sean facilmente adaptables a los modelos.
-*_Dado que la variable idmunicipio contiene gran cantidad de 	posibilidades, que decidimos dropear la columna para no agregar varianza a los datos. Latitud y longitud brindan ya la información de ubicación.
-*_Dividimos el dataset en dos (datos categoricos y numericos) para optimizar su manejo.
-*_Utilizamos catboost para entender la importancia de las variables a la hora de predecir 	la causa. Observamos que a la hora de elegir una variable temporal, nos resulta 	conveniente inclinarnos por ‘Trimestre’ ya que es mejor predictor por sobre ‘mes’.
+* _Eliminamos columnas innecesarias._
+* _Verificamos que todos los datos cuenten con el mismo formato: 	Transformamos la columna 'fecha' a tipo numerico para luego dividir mejor las variables._
+
+Una vez establecida la variable causa como variable target de nuestro proyecto, procedimos a la identificación de las variables más relevantes relacionadas con la primera.
+
+* _Agrupamos dentro del dataset según la variable causa –> df.groupby('causa').size()_
+* _Mapeamos las variables categoricas que tienen un orden para que sean facilmente adaptables a los modelos._
+* _Dado que la variable idmunicipio contiene gran cantidad de 	posibilidades, que decidimos dropear la columna para no agregar varianza a los datos. Latitud y longitud brindan ya la información de ubicación._
+* _Dividimos el dataset en dos (datos categoricos y numericos) para optimizar su manejo._
+* _Utilizamos catboost para entender la importancia de las variables a la hora de predecir 	la causa. Observamos que a la hora de elegir una variable temporal, nos resulta 	conveniente inclinarnos por ‘Trimestre’ ya que es mejor predictor por sobre ‘mes’._
 
 ### Desarrollo del modelo ⚙️
 
