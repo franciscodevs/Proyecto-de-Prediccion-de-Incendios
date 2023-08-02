@@ -80,4 +80,3 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 * **Carolina Vinagre** - [carovinagre](https://github.com/carovinagre)
 * **Claudia Courau** - [clau-courau](https://github.com/clau-courau)
 * **Francisco Gutierrez** - [franciscodevs](https://github.com/franciscodevs)
-
