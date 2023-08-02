@@ -81,8 +81,3 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 * **Claudia Courau** - [clau-courau](https://github.com/clau-courau)
 * **Francisco Gutierrez** - [franciscodevs](https://github.com/franciscodevs)
 
-## Tutor :raising_hand_man:
-* **Jose Ignacio Lopez Saez** - [nachols1986](https://github.com/nachols1986)
-
-
-![img](data/LOGO_CODER.png)
